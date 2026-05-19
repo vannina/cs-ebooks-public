@@ -1,0 +1,140 @@
+# robots.txt · Corsica Studio
+# Mis a jour 2026-05-19
+# Source : https://github.com/vannina/cs-ebooks-public/blob/main/robots.txt
+
+# ─────────────────────────────────────────────
+# Regle par defaut : tous les bots autorises
+# ─────────────────────────────────────────────
+User-agent: *
+Allow: /
+Disallow: /merci
+Disallow: /api/
+
+# ─────────────────────────────────────────────
+# Bots IA generative (GEO - Generative Engine Optimization)
+# Explicitement autorises pour indexation et reponses
+# ─────────────────────────────────────────────
+
+# OpenAI · ChatGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic · Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google · Gemini training + AI Overviews
+User-agent: Google-Extended
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Common Crawl (utilise pour training de nombreux LLMs)
+User-agent: CCBot
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta · Llama training
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# ByteDance · Doubao
+User-agent: Bytespider
+Allow: /
+
+# Amazon
+User-agent: Amazonbot
+Allow: /
+
+# Diffbot · Bright Data
+User-agent: Diffbot
+Allow: /
+
+# ─────────────────────────────────────────────
+# Bots SEO classiques · explicites
+# ─────────────────────────────────────────────
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: BingPreview
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# ─────────────────────────────────────────────
+# Bots reseaux sociaux · previews
+# ─────────────────────────────────────────────
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# ─────────────────────────────────────────────
+# Sitemap
+# ─────────────────────────────────────────────
+
+Sitemap: https://www.corsica-studio.com/sitemap.xml
